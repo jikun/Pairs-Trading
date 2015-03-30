@@ -48,7 +48,7 @@ def get_yahoo_data(data_path, ls_symbols):
             # We don't want to write that to file.
             symbol_data.pop(-1)
             #now writing data to file
-            f = open (data_path + '/' + symbol_name + ".csv", 'w')
+            f = open (data_path + symbol_name + ".csv", 'w')
 
             #Writing the header
             f.write (header)
@@ -97,7 +97,7 @@ def update_my_data():
 def main():
     '''Main Function'''
     path = './'
-    ls_symbols = read_symbols('symbols.txt')
+    ls_symbols = read_symbols('index.txt')
     get_yahoo_data(path, ls_symbols)
 
 if __name__ == '__main__':

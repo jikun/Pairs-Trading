@@ -45,10 +45,11 @@ Make sure your system meets these requirements:
   pip install QSTK
   ```
 
-### Step 4: Install Sublime IDE
+### Step 4: Install Sublime IDE and Fix Mac Path (other systems no need to fix)
 
   ```
   brew install sublime
+  git clone https://github.com/int3h/SublimeFixMacPath.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/FixMacPath
   ```
 
 ### Step 5: Clone AlgoTrading and Overwrite QSTK package

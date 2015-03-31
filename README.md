@@ -51,14 +51,14 @@ Make sure your system meets these requirements:
   brew install sublime
   ```
 
-### Step 5: Clone AlgoTrading and overwrite QSTK package
+### Step 5: Clone AlgoTrading and Overwrite QSTK package
 
   ```
   git clone https://github.com/weiyialanchen/AlgoTrading.git
   cp -r  AlgoTrading/* /usr/local/lib/python2.7/site-packages/QSTK/
   ```
 
-### Step 6: Set up alias to work directory. 
+### Step 6: Set up alias to working directory
 
 Note that your working directory is /usr/local/lib/python2.7/site-packages/QSTK/, to make alias
 

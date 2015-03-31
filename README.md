@@ -55,7 +55,8 @@ Make sure your system meets these requirements:
 
   ```
   git clone https://github.com/weiyialanchen/AlgoTrading.git
-  cp -r  AlgoTrading/* /usr/local/lib/python2.7/site-packages/QSTK/
+  cp -r AlgoTrading/* /usr/local/lib/python2.7/site-packages/QSTK/
+  rm -r AlgoTrading/
   ```
 
 ### Step 6: Set up alias to working directory

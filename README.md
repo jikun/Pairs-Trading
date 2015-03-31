@@ -65,17 +65,18 @@ Make sure your system meets these requirements:
 Note that your working directory is /usr/local/lib/python2.7/site-packages/QSTK/, to make alias
 
   ```
-  vi ~/.bash_profile
+  subl ~/.bash_profile
   ```
 
-  Add following line to the file (press 'i' to insert, ':wq' to write and quit)
+  Append the following line to the file
 
   ```
-  alias AlgoTrading='/usr/local/lib/python2.7/site-packages/QSTK/'
+  alias AlgoTrading='cd /usr/local/lib/python2.7/site-packages/QSTK/'
   ```
-
-  Next time you want to go to the working folder, just run
+  
+  Save, exit and restart the terminal. Next time when you want to go to the working folder and open it, just run
 
   ```
-  subl AlgoTrading
+  AlgoTrading
+  subl ./
   ```

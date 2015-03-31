@@ -1,16 +1,7 @@
 '''
-(c) 2011, 2012 Georgia Tech Research Corporation
-This source code is released under the New BSD license.  Please see
-http://wiki.quantsoftware.org/index.php?title=QSTK_License
-for license details.
-
-Created on January, 23, 2013
-
-@author: Sourabh Bajaj
-@contact: sourabhbajaj@gatech.edu
+(c) 2015 Baruch College - AlgoTrading course
 @summary: Event Profiler Tutorial
 '''
-
 
 import pandas as pd
 import numpy as np

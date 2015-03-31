@@ -1,3 +1,8 @@
+'''
+(c) 2015 Baruch College - AlgoTrading course
+@summary: Feature searcher Tutorial
+'''
+
 ''' Python imports '''
 import datetime as dt
 

@@ -97,7 +97,7 @@ def update_my_data():
 def main():
     '''Main Function'''
     path = '../QSData/Yahoo/'
-    ls_symbols = read_symbols(path+'index.txt'
+    ls_symbols = read_symbols(path+'index.txt')
     get_yahoo_data(path, ls_symbols)
 
 if __name__ == '__main__':

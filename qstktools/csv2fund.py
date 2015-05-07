@@ -21,7 +21,7 @@ import numpy
 import pickle
 import datetime as dt
 import dateutil.parser as dp
-from Bin import report
+import report
 from QSTK.qstksim import _calculate_leverage
 from QSTK.qstkutil import qsdateutil as du
 from QSTK.qstkutil import DataEvolved as de
